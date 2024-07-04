@@ -11,12 +11,12 @@ import java.util.ArrayList;
 @Setter
 @AllArgsConstructor
 public class GameMap {
-    private ArrayList<Integer> heroPathX;
-    private ArrayList<Integer> towerPositionsX;
-    private Integer endPointX;
-    private ArrayList<Integer> heroPathY;
-    private ArrayList<Integer> towerPositionsY;
-    private Integer endPointY;
-    private ArrayList<Raider> raiders;
-    private int startingCoin;
+    private final ArrayList<Integer> heroPathX;
+    private final ArrayList<Integer> towerPositionsX;
+    private final Integer endPointX;
+    private final ArrayList<Integer> heroPathY;
+    private final ArrayList<Integer> towerPositionsY;
+    private final Integer ENDPOINTy;
+    private final ArrayList<Raider> RAIDERS;
+    private final int STARTCOIN;
 }
