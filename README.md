@@ -1,3 +1,4 @@
+final project of second semester for advance programming
 Tower Defense Game - JavaFX, Threads & MySQL
 This project is a Tower Defense game inspired by Kingdom Rush, developed using JavaFX for the user interface, Threads for managing game logic, and MySQL for data storage. The game allows players to build towers, defend against enemy waves, and save progress using a database.
 
