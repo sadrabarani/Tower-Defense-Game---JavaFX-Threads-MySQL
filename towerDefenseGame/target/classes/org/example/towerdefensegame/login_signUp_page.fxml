@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LoginSignUpPage">
+   <children>
+      <TabPane prefHeight="700.0" prefWidth="1400.0" style="-fx-background-color: #000000EF;" tabClosingPolicy="UNAVAILABLE">
+         <tabs>
+            <Tab text="Login">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="700.0" prefWidth="1400.0">
+                     <children>
+                        <ImageView fitHeight="705.0" fitWidth="1454.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@images/signUp.png" />
+                           </image></ImageView>
+                        <Label fx:id="userLbl" layoutX="149.0" layoutY="510.0" prefHeight="52.0" prefWidth="181.0" text="USER NAME">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="passlbl" layoutX="600.0" layoutY="509.0" prefHeight="39.0" prefWidth="156.0" text="PASSWORD">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="userNameTxt" layoutX="310.0" layoutY="482.0" prefHeight="94.0" prefWidth="280.0" promptText="user name ">
+                           <font>
+                              <Font size="29.0" />
+                           </font></TextField>
+                        <PasswordField fx:id="passField" layoutX="751.0" layoutY="485.0" prefHeight="90.0" prefWidth="335.0" promptText="password ( more than 8 character )">
+                           <font>
+                              <Font size="20.0" />
+                           </font></PasswordField>
+                        <Label fx:id="loginLbl" layoutX="570.0" layoutY="101.0" prefHeight="81.0" prefWidth="323.0" text="Login">
+                           <font>
+                              <Font name="System Italic" size="62.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="328.0" layoutY="183.0" prefHeight="30.0" prefWidth="764.0" />
+                        <Button fx:id="loginBtn" layoutX="1105.0" layoutY="490.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="194.0" text="Login">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Sign up">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="705.0" fitWidth="1451.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@images/login.png" />
+                           </image>
+                        </ImageView>
+                        <TextField fx:id="userNameTxt1" layoutX="373.0" layoutY="523.0" prefHeight="99.0" prefWidth="383.0" promptText="user name">
+                           <font>
+                              <Font size="28.0" />
+                           </font></TextField>
+                        <TextField fx:id="passTxt" layoutX="370.0" layoutY="382.0" prefHeight="102.0" prefWidth="386.0" promptText="more than 8 character">
+                           <font>
+                              <Font size="25.0" />
+                           </font></TextField>
+                        <TextField fx:id="fulNameTxt" layoutX="369.0" layoutY="237.0" prefHeight="107.0" prefWidth="398.0" promptText="first name/ last name">
+                           <font>
+                              <Font size="28.0" />
+                           </font></TextField>
+                        <Label layoutX="128.0" layoutY="547.0" prefHeight="66.0" prefWidth="184.0" text="user name" textFill="#9e9e9e">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="132.0" layoutY="403.0" prefHeight="70.0" prefWidth="165.0" text="password" textFill="#9e9e9e">
+                           <font>
+                              <Font size="38.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="137.0" layoutY="276.0" prefHeight="66.0" prefWidth="217.0" text="Display name" textFill="#9e9e9e">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="signInBtn" layoutX="1009.0" layoutY="358.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="186.0" text="Sign in">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Button>
+                        <Separator layoutX="184.0" layoutY="148.0" prefHeight="26.0" prefWidth="472.0" />
+                        <Label layoutX="159.0" layoutY="21.0" prefHeight="108.0" prefWidth="486.0" text="Sign in" textFill="#d2ff00">
+                           <font>
+                              <Font name="System Italic" size="59.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

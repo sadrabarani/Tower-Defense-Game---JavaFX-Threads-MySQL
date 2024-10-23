@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.mapsView.Level2map">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/map3.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="map1Anchor" prefHeight="700.0" prefWidth="1400.0">
+         <children>
+            <ImageView fx:id="freezImg" disable="true" fitHeight="499.0" fitWidth="597.0" layoutX="-2.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" rotate="180.0" visible="false">
+               <image>
+                  <Image url="@images/freez.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c1" fitHeight="116.0" fitWidth="116.0" layoutX="584.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="c2" fitHeight="104.0" fitWidth="122.0" layoutX="698.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="c3" fitHeight="116.0" fitWidth="116.0" layoutX="726.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="c4" fitHeight="107.0" fitWidth="107.0" layoutX="625.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="c5" fitHeight="104.0" fitWidth="108.0" layoutX="721.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="c6" fitHeight="116.0" fitWidth="123.0" layoutX="607.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="c7" fitHeight="116.0" fitWidth="116.0" layoutX="796.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="c8" fitHeight="116.0" fitWidth="125.0" layoutX="679.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="226.0" fitWidth="442.0" layoutX="920.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bar.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="healthLbl" alignment="CENTER" layoutX="1059.0" layoutY="55.0" prefHeight="46.0" prefWidth="74.0" text="20" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="coinLbl" layoutX="1186.0" layoutY="60.0" prefHeight="46.0" prefWidth="89.0" text="200" textFill="#f2f2f2" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="waveLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="1144.0" layoutY="110.0" prefHeight="41.0" prefWidth="108.0" text="3/0" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="startBtn" fitHeight="160.0" fitWidth="154.0" layoutX="25.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/pngtree-game-icon-double-sword-cartoon-cute-attack-icon-png-image_4402765.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="heaLthSpell" fitHeight="112.0" fitWidth="122.0" layoutX="150.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/healthSpell.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="freezSpellIm" fitHeight="115.0" fitWidth="139.0" layoutX="145.0" layoutY="583.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/freezSpell.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="coinSpellImg" fitHeight="114.0" fitWidth="124.0" layoutX="18.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/COINsPELL.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="littleBoySpellImg" fitHeight="117.0" fitWidth="109.0" layoutX="21.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/littleBoySpell.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

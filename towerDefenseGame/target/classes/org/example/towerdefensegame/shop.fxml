@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Shop">
+   <children>
+      <ImageView fitHeight="719.0" fitWidth="1416.0" layoutX="-16.0" layoutY="-19.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/shop12.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="735.0" layoutY="33.0" prefHeight="98.0" prefWidth="208.0" text="shop" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="58.0" />
+         </font>
+      </Label>
+      <Label fx:id="gem" alignment="CENTER" layoutX="400.0" layoutY="17.0" prefHeight="62.0" prefWidth="158.0" text="0" textFill="#9fb400">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="121.0" fitWidth="104.0" layoutX="129.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/littleBoyItem.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="104.0" layoutX="129.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/coinItem.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="113.0" layoutX="132.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/healthItem.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="123.0" fitWidth="108.0" layoutX="136.0" layoutY="551.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/freezItem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="healthLbl" fitHeight="179.0" fitWidth="178.0" layoutX="285.0" layoutY="498.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/healthItem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coinLbl" fitHeight="178.0" fitWidth="201.0" layoutX="525.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/coinItem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="littleBiyLbl" fitHeight="213.0" fitWidth="246.0" layoutX="872.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/littleBoyItem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="freezLlb" fitHeight="204.0" fitWidth="191.0" layoutX="1069.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/freezItem.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="703.0" layoutY="125.0" prefHeight="55.0" prefWidth="226.0" text="COIN SPELL" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="696.0" layoutY="178.0" prefHeight="55.0" prefWidth="239.0" text="HEALTH SPELL" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="699.0" layoutY="247.0" prefHeight="55.0" prefWidth="228.0" text="LITTLE BOY" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="697.0" layoutY="306.0" prefHeight="55.0" prefWidth="230.0" text="FREEZE SPELL" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="1014.0" layoutY="134.0" prefHeight="55.0" prefWidth="128.0" text="850" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="1016.0" layoutY="186.0" prefHeight="55.0" prefWidth="120.0" text="350" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="1016.0" layoutY="248.0" prefHeight="62.0" prefWidth="130.0" text="999" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="1010.0" layoutY="308.0" prefHeight="55.0" prefWidth="130.0" text="250" textFill="#eeff00">
+         <font>
+            <Font name="System Italic" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="exitBtn" fitHeight="235.0" fitWidth="120.0" layoutX="1268.0" layoutY="3.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/exitIMAge.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1399.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.mapsView.Level3map">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/sprite_level_0_2-hd(1).png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="map1Anchor" layoutX="-1.0" layoutY="-1.0" prefHeight="700.0" prefWidth="1400.0">
+         <children>
+            <ImageView fx:id="freezImg" disable="true" fitHeight="488.0" fitWidth="615.0" layoutX="4.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" rotate="180.0" visible="false">
+               <image>
+                  <Image url="@images/freez.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c1" fitHeight="114.0" fitWidth="79.0" layoutX="363.0" layoutY="94.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c2" fitHeight="125.0" fitWidth="93.0" layoutX="820.0" layoutY="283.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c3" fitHeight="141.0" fitWidth="100.0" layoutX="1035.0" layoutY="368.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c4" fitHeight="135.0" fitWidth="97.0" layoutX="639.0" layoutY="558.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c5" fitHeight="130.0" fitWidth="88.0" layoutX="330.0" layoutY="466.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c6" fitHeight="116.0" fitWidth="92.0" layoutX="471.0" layoutY="279.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c7" fitHeight="119.0" fitWidth="87.0" layoutX="635.0" layoutY="174.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c8" fitHeight="112.0" fitWidth="107.0" layoutX="619.0" layoutY="416.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/sp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="216.0" fitWidth="400.0" layoutX="994.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bar.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="healthLbl" alignment="CENTER" layoutX="1117.0" layoutY="49.0" prefHeight="35.0" prefWidth="66.0" text="20" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="coinLbl" layoutX="1236.0" layoutY="49.0" prefHeight="34.0" prefWidth="91.0" text="200" textFill="#f2f2f2" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="waveLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="1206.0" layoutY="100.0" prefHeight="23.0" prefWidth="104.0" text="3/0" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="startBtn" fitHeight="134.0" fitWidth="138.0" layoutX="131.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/pngtree-game-icon-double-sword-cartoon-cute-attack-icon-png-image_4402765.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="heaLthSpell" fitHeight="112.0" fitWidth="112.0" layoutX="26.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/healthSpell.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="freezSpellIm" fitHeight="115.0" fitWidth="139.0" layoutX="25.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/freezSpell.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="coinSpellImg" fitHeight="114.0" fitWidth="124.0" layoutX="148.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/COINsPELL.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="littleBoySpellImg" fitHeight="117.0" fitWidth="109.0" layoutX="157.0" layoutY="580.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/littleBoySpell.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" prefHeight="733.0" prefWidth="1453.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.HomePage">
+   <children>
+      <ImageView fitHeight="749.0" fitWidth="1457.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/img_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level1Flag" fitHeight="146.0" fitWidth="117.0" layoutX="146.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/redFlag.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level2Flag" fitHeight="150.0" fitWidth="123.0" layoutX="609.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/redFlag.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level3Flag" fitHeight="119.0" fitWidth="103.0" layoutX="956.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/redFlag.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level4Flag" fitHeight="150.0" fitWidth="123.0" layoutX="1100.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/redFlag.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="197.0" layoutY="400.0" prefHeight="55.0" prefWidth="31.0" text="1" underline="true">
+         <font>
+            <Font name="System Bold" size="54.0" />
+         </font>
+      </Label>
+      <Label layoutX="1164.0" layoutY="503.0" prefHeight="97.0" prefWidth="57.0" text="4" underline="true">
+         <font>
+            <Font name="System Bold" size="65.0" />
+         </font>
+      </Label>
+      <Label layoutX="918.0" layoutY="166.0" prefHeight="60.0" prefWidth="23.0" text="3" underline="true">
+         <font>
+            <Font name="System Bold" size="54.0" />
+         </font>
+      </Label>
+      <Label layoutX="723.0" layoutY="113.0" prefHeight="55.0" prefWidth="31.0" text="2" underline="true">
+         <font>
+            <Font name="System Bold" size="54.0" />
+         </font>
+      </Label>
+      <Label fx:id="gemLbl" layoutX="1041.0" layoutY="642.0" prefHeight="54.0" prefWidth="161.0" style="-fx-background-color: yellow;" text="0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="1158.0" layoutY="646.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Microsoft-Fluentui-Emoji-3d-Gem-Stone-3d.512.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="settingBtn" fitHeight="89.0" fitWidth="83.0" layoutX="28.0" layoutY="629.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/homeIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="shopBtn" fitHeight="131.0" fitWidth="91.0" layoutX="130.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/shop.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exitBtn" fitHeight="73.0" fitWidth="72.0" layoutX="16.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" rotate="178.8">
+         <image>
+            <Image url="@images/out.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

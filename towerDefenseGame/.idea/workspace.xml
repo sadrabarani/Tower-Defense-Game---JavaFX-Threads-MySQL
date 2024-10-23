@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58079604-fc0f-47f1-9450-d7b132de7dc5" name="Changes" comment="login page" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="firstCheckPoint" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ijkIuxayequrEAlEQuEp6DhgqV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/USER/IdeaProjects/finalproject-game-sadrabarani/towerDefenseGame/src/main/java/org/example/towerdefensegame",
+    "last_opened_file_path": "C:/Users/USER/Downloads/mysql-connector-java-8.0.27.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\finalproject-game-sadrabarani\towerDefenseGame\src\main\resources\org\example\towerdefensegame\images" />
+      <recent name="C:\Users\USER\IdeaProjects\finalproject-game-sadrabarani\towerDefenseGame\src\main\resources\org\example\towerdefensegame" />
+      <recent name="C:\Users\USER\IdeaProjects\finalproject-game-sadrabarani\towerDefenseGame\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GUI" />
+      <recent name="exeptions" />
+      <recent name="controler" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58079604-fc0f-47f1-9450-d7b132de7dc5" name="Changes" comment="" />
+      <created>1720011299902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720011299902</updated>
+      <workItem from="1720014829932" duration="882000" />
+      <workItem from="1720024910518" duration="2165000" />
+      <workItem from="1720069238228" duration="11725000" />
+      <workItem from="1720166893943" duration="4184000" />
+      <workItem from="1720178464563" duration="3492000" />
+      <workItem from="1720245247114" duration="14364000" />
+      <workItem from="1720335527452" duration="18965000" />
+      <workItem from="1720420707608" duration="20974000" />
+      <workItem from="1720506070120" duration="30724000" />
+      <workItem from="1720567433732" duration="6000" />
+      <workItem from="1720596737720" duration="28481000" />
+      <workItem from="1720683353141" duration="1693000" />
+      <workItem from="1720685199605" duration="30945000" />
+      <workItem from="1720769790462" duration="39961000" />
+      <workItem from="1720866323285" duration="2231000" />
+      <workItem from="1720868570697" duration="4000" />
+      <workItem from="1721117228283" duration="3280000" />
+      <workItem from="1728570713951" duration="1000" />
+      <workItem from="1729004506582" duration="1429000" />
+      <workItem from="1729697295990" duration="2284000" />
+    </task>
+    <task id="LOCAL-00001" summary="model(tower,spell,map...)">
+      <option name="closed" value="true" />
+      <created>1720101322596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720101322596</updated>
+    </task>
+    <task id="LOCAL-00002" summary="PlayerControler + signup and login page">
+      <option name="closed" value="true" />
+      <created>1720108168986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720108168986</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hoome page + start page">
+      <option name="closed" value="true" />
+      <created>1720273419706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720273419706</updated>
+    </task>
+    <task id="LOCAL-00004" summary="setting and other pages">
+      <option name="closed" value="true" />
+      <created>1720282537869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720282537869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pages">
+      <option name="closed" value="true" />
+      <created>1720369294558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720369294558</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding tower to map">
+      <option name="closed" value="true" />
+      <created>1720393730446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720393730446</updated>
+    </task>
+    <task id="LOCAL-00007" summary="trying to move raiders">
+      <option name="closed" value="true" />
+      <created>1720477974528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720477974528</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adding tower to map">
+      <option name="closed" value="true" />
+      <created>1720532298975</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720532298975</updated>
+    </task>
+    <task id="LOCAL-00009" summary="tower attaking">
+      <option name="closed" value="true" />
+      <created>1720567269268</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720567269268</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sending stone + adding 3 map">
+      <option name="closed" value="true" />
+      <created>1720651365512</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720651365512</updated>
+    </task>
+    <task id="LOCAL-00011" summary="popup updatePopUp.fxml">
+      <option name="closed" value="true" />
+      <created>1720712180137</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720712180137</updated>
+    </task>
+    <task id="LOCAL-00012" summary="media player + towers and raider animation + debug">
+      <option name="closed" value="true" />
+      <created>1720738969359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720738969359</updated>
+    </task>
+    <task id="LOCAL-00013" summary="spell + add 3 map">
+      <option name="closed" value="true" />
+      <created>1720818065034</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720818065034</updated>
+    </task>
+    <task id="LOCAL-00014" summary="compelting shop and update">
+      <option name="closed" value="true" />
+      <created>1720821362430</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720821362430</updated>
+    </task>
+    <task id="LOCAL-00015" summary="end game">
+      <option name="closed" value="true" />
+      <created>1720826561602</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720826561602</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updating coin and health label">
+      <option name="closed" value="true" />
+      <created>1720830230701</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720830230701</updated>
+    </task>
+    <task id="LOCAL-00017" summary="debug timer">
+      <option name="closed" value="true" />
+      <created>1720831581651</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720831581651</updated>
+    </task>
+    <task id="LOCAL-00018" summary="login page">
+      <option name="closed" value="true" />
+      <created>1720832102582</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720832102582</updated>
+    </task>
+    <task id="LOCAL-00019" summary="login page">
+      <option name="closed" value="true" />
+      <created>1720832108768</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720832108768</updated>
+    </task>
+    <task id="LOCAL-00020" summary="login page">
+      <option name="closed" value="true" />
+      <created>1729697312196</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729697312196</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="model(tower,spell,map...)" />
+    <MESSAGE value="PlayerControler + signup and login page" />
+    <MESSAGE value="hoome page + start page" />
+    <MESSAGE value="setting and other pages" />
+    <MESSAGE value="pages" />
+    <MESSAGE value="trying to move raiders" />
+    <MESSAGE value="adding tower to map" />
+    <MESSAGE value="tower attaking" />
+    <MESSAGE value="sending stone + adding 3 map" />
+    <MESSAGE value="popup updatePopUp.fxml" />
+    <MESSAGE value="media player + towers and raider animation + debug" />
+    <MESSAGE value="spell + add 3 map" />
+    <MESSAGE value="compelting shop and update" />
+    <MESSAGE value="end game" />
+    <MESSAGE value="updating coin and health label" />
+    <MESSAGE value="debug timer" />
+    <MESSAGE value="login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="login page" />
+  </component>
+</project>
